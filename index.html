@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jp generator</title>
+    <link rel="stylesheet" href="../CSS/jp.css";
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body>
+<div class="jp">
+  <h1>JP Generator</h1>
+  <p>I generate random cat gif after every 5 secs</p>
+
+</div>
+<div class="img">
+  <img src="../jp.jpeg"  width="400px" height="400px "alt="">
+
+<img src=" http://thecatapi.com/api/images/get?format=src&type=gif" width="400px" height="400pxalt="">
+</div>
+<script>
+    window.setInterval('refresh()', 5000);
+    // Call a function every 10000 milliseconds
+    // (OR 10 seconds).
+
+    // Refresh or reload page.
+    function refresh() {
+        window .location.reload();
+    }
+</script>
+  </body>
+</html>
